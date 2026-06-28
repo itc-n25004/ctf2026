@@ -23,7 +23,7 @@ sudo vim /etc/apache2/apache2.conf
     AuthUserFile /etc/apache2/.passwd
     require valid-user
 ```
-![apach2_conf](image/apach2_conf)
+![apach2_conf](../image/apach2_conf)
 
 3. user登録
 > 今回はtestユーザで作成するよ<br>
@@ -43,7 +43,7 @@ sudo vi /var/www/html/index.html
 ```
 
 - 完成
-![result](image/result)
+![result](../image/result)
 
 > errorが出た時<br>
 > less /var/log/apache2/error.log の中身を見てみよう<br>
