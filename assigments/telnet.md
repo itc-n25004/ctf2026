@@ -10,13 +10,13 @@ sudo apt install telnetd
 sudo systemctl start inetd
 sudo systemctl status inetd
 ```
-![telnet_status](image/telnet_status.png)
+![telnet_status](../image/telnet_status.png)
 2. telnetの設定ファイルを開いて編集します。
 ```sh
 sudo vi /etc/inetd.conf
 ```
 - 以下の内容に変更(コメントされているのを外す　無ければ追記)
-![telnet_config](image/telnet_config)
+![telnet_config](../image/telnet_config)
 3. 設定を読み込む
 ```sh
 sudo systemctl restart inetd
@@ -25,5 +25,5 @@ sudo systemctl restart inetd
 ```sh
  sudo systemctl status inetd
 ```
-![telnet_result.png](image/telnet_result.png)<br>
+![telnet_result.png](../image/telnet_result.png)<br>
 - errorがなければ完成
