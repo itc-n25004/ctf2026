@@ -11,7 +11,7 @@ sudo systemctl start apache2
 ```sh
 sudo systemctl status apache2
 ```
-![apache_status](image/apache2_status)
+![apache_status](../image/apache2_status)
 2. serverの設定を追記
 ```sh
 sudo vim /etc/apache2/apache2.conf
