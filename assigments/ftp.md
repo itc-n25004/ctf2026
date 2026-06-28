@@ -9,7 +9,7 @@ sudo apt install vsftpd ftp
 ```sh
 sudo systemctl status vsftpd
 ```
-![vsftpd_status](image/vsftpd_status)
+![vsftpd_status](../assigments/image/vsftpd_status)
 
 3. 設定ファイルの書き換え
 ```txt
@@ -53,4 +53,4 @@ sudo systemctl restart vsftpd
 ```
 
 - 接続の確認<br>
-![conect_ftp](image/conect_ftp.png)
+![conect_ftp](../assigments/image/conect_ftp.png)
